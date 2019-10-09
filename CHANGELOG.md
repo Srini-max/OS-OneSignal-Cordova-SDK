@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Fixes
+- Update OneSignal-Android-SDK with latest version from upstream [RNMT-3314](https://outsystemsrd.atlassian.net/browse/RNMT-3314)
+- Use android support versions 26.1.+ when compileSDK is prior to version 28 [RNMT-3266](https://outsystemsrd.atlassian.net/browse/RNMT-3266)
 
 ## [2.4.5-OS3] - 2019-09-10
 ### Fixes
