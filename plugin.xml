@@ -75,7 +75,14 @@
         <string>remote-notification</string>
       </array>
     </config-file>
-
+      
+    <config-file target="*-Debug.plist" parent="OneSignal_app_groups_key">
+			  <string>group.com.et.gemspoc.onesignal</string>
+	</config-file>
+   <config-file target="*-Release.plist" parent="OneSignal_app_groups_key">
+			  <string>group.com.et.gemspoc.onesignal</string>
+    </config-file>
+      
     <config-file target="*-Debug.plist" parent="aps-environment">
       <string>development</string>
     </config-file>
